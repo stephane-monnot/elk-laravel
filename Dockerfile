@@ -1,4 +1,4 @@
-FROM willdurand/elk:kibana-5.x
+FROM willdurand/elk
 
 COPY ./logstash /etc/logstash
 COPY ./logstash/patterns /opt/logstash/patterns
